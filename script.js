@@ -135,8 +135,7 @@ function displayForecast(data) {
         handleCommentFormSubmit(event, "currentWeather");
     });
 
-    // Event listener for the comment form for forecast (you need to implement this)
-    // ...
+  
 
     // Function to handle comment form submissions
     function handleCommentFormSubmit(event, section) {
@@ -147,7 +146,7 @@ function displayForecast(data) {
 
         if (comment) {
             // Add comment to the current city and section
-            const currentCity = getCurrentCity(); // You need to implement this function to get the current city.
+            const currentCity = getCurrentCity(); 
             addComment(currentCity, section, comment);
 
             // Display updated comments
